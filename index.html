@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script>
+        $(document).ready(function () {
+            //   alert("OK");
+
+            $("#btn-formu").on("click", function (e) {
+                e.preventDefault();
+                $("#my-input").val("");
+            });
+        });
+    </script>
+</head>
+<body>
+
+
+<div>
+    <div class="container text-center pt-3 pb-3">
+        <img src="Objetdynamiquevectoriel_47947ee7-37d6-4562-9899-9e894e48fc0a.png" height="100"/>
+    </div>
+</div>
+
+
+<div id="parent">
+    <div class="container">
+        <div style="padding: 30px">
+            <div id="bg-white">
+                <div class="row">
+                    <div class="col-12 col-sm-6">
+                        <div style="padding: 50px;">
+                            <div>
+                                <h5 class="font-weight-bold" id="my-title" >Un Jour, Un Parfum</h5>
+                                <p class="font-weight-light">
+                                    La maison 21G souhaite renouer le lien perdu avec le parfum avec un nouveau concept de parfum totalement personnalisable et unique à chacun. En effet, grâce à un test de personnalité, nous choisirons pour vous une sélection de senteurs parmi les 528 combinaisons possible. Puis, de ce test, ressortira 3 parfums qui vous caractérisent : le parfum de l’âme, le parfum du corps et le parfum de l’esprit.                                </p>
+                            </div>
+
+                            <div>
+
+
+                                <div>
+                                    <div>
+                                        Contact
+                                    </div>
+                                    <div class="row">
+
+                                        <div class="col-md-8">
+                                            <input id="my-input" style=" color: lightgray; text-align: center" type="Adresse mail"
+                                                   class="form-control" id="exempleInputAdresse mail" placeholder="Adresse mail">
+                                        </div>
+                                        <div class="col-md-4">
+                                            <button id="btn-formu" style=" color: black" type="valider"
+                                                    class="btn btn-primary">valider
+                                            </button>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                    <div class="col-12 col-sm-6">
+                        <img src="Box 01 (1).png" height="500"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-5" id="rs-social">
+                <div>
+<a href="https://www.facebook.com/maison21g/?ref=br_rs" target="_blank">
+                    <img src="https://image.flaticon.com/icons/png/512/124/124010.png" height="20"/>
+</a>
+
+                    <a href="https://www.instagram.com/maison21g/" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/220px-Instagram_logo_2016.svg.png" height="20"/>
+                    </a>
+                    <a href="https://www.linkedin.com/company/maison21grams/about/" target="_blank">
+            <img src="http://pingpong.fr/wp-content/uploads/2014/11/logo-linkedin.jpg" height="20"/>
+                    </a>
+                    <a href="https://twitter.com/login?lang=fr" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/langfr-280px-Twitter_Bird.svg.png" height="20"/>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+
+
+
+
+</body>
+</html>

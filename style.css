@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    /*background-color: #F8F8F8 !important;*/
+}
+
+.carousel img {
+    max-height: 500px;
+    width: 100%
+}
+
+#produit {
+    margin-height: 100px;
+    pandding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+}
+
+.cardProd {
+    background-color: transparent;
+}
+
+#tab3 {
+    margin-top: 60px;
+}
+
+#newsletter {
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+#my-input {
+
+    font-family: 'Roboto', sans-serif;
+}
+
+#my-title{
+    font-family: 'Roboto', sans-serif;
+    margin-right: 100px;
+}
+
+@media only screen and (min-width: 567px) {
+    #my-input {
+    }
+
+    #btn-formu {
+        background: green;
+        border: none;
+    }
+
+}
+
+@media (min-width: 992px) {
+    #my-input {
+    }
+
+    #btn-formu {
+
+    }
+}
+
+#exempleInputAdresse mail {
+
+    text-align: center;
+}
+
+#parent {
+    background: url("jess-aston-1326755-unsplash copie 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bg-white {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+#rs-social{
+
+}
+#rs-social > div{
+    display:flex;
+    justify-content:center;
+}
+#rs-social > div > *{
+    margin: 0 5px;
+}
